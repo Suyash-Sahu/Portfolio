@@ -15,6 +15,9 @@ import nodejs from "./tech/nodejs.svg";
 import reactjs from "./tech/reactjs.svg";
 import tailwind from "./tech/tailwind.svg";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.jpeg";
+import flutter from "./tech/flutter.png";
+import firebase from "./tech/firebase.jpeg";
 
 export {
   logo,
@@ -33,4 +36,7 @@ export {
   reactjs,
   tailwind,
   threejs,
+  java,
+  flutter,
+  firebase,
 };

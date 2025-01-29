@@ -8,9 +8,13 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  mongodb,
   git,
   threejs,
+  java,
+  kotlin,
+  flutter,
+  firebase,
+  mongodb,
 } from "../assets";
 
 export const navLinks = [
@@ -48,6 +52,10 @@ export const services = [
 
 export const technologies = [
   {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -72,8 +80,12 @@ export const technologies = [
     icon: tailwind,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "Git",
@@ -82,10 +94,24 @@ export const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  }
+  },
 ];
 
 export const experiences = [
+  {
+    title: "IRCTC Clone App Developer",
+    company_name: "Major Academic Project",
+    icon: mobile,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - Present",
+    points: [
+      "Developed a feature-rich Android application clone of IRCTC using Kotlin and Android Studio",
+      "Implemented core functionalities like train search, PNR tracking, and booking management",
+      "Built with MVVM architecture, Kotlin Coroutines, and Material Design components",
+      "Created responsive UI with ViewBinding and LiveData for real-time updates",
+      "Integrated repository pattern for efficient data management and API integration"
+    ],
+  },
   {
     title: "StayFit App Developer",
     company_name: "Major Academic Project",
@@ -129,6 +155,27 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "IRCTC Clone",
+    description:
+      "A comprehensive Android application clone of IRCTC built with Kotlin and modern Android development practices. Features include train search, PNR tracking, booking management, and real-time updates using MVVM architecture.",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "android",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mvvm",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mobile,
+    source_code_link: "https://github.com/",
+  },
+  {
     name: "StayFit - Fitness Tracking App",
     description:
       "A comprehensive Android fitness application built with Java that helps users track their workouts, plan nutrition, and monitor their fitness progress. Features include workout tracking, nutrition planning, and progress monitoring.",
@@ -169,26 +216,5 @@ export const projects = [
     ],
     image: web,
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Kotlin Android Project",
-    description:
-      "Android application developed using Kotlin, demonstrating modern Android development practices. Includes features like material design, data persistence, and responsive UI components.",
-    tags: [
-      {
-        name: "kotlin",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "android",
-        color: "green-text-gradient",
-      },
-      {
-        name: "jetpack",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mobile,
-    source_code_link: "https://github.com/",
-  },
-]
+  }
+];
