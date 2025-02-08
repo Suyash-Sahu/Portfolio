@@ -7,14 +7,13 @@ import {
   css,
   reactjs,
   tailwind,
-  nodejs,
-  git,
-  threejs,
+  php,
   java,
   kotlin,
   flutter,
   firebase,
-  mongodb,
+  git,
+  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +45,7 @@ export const services = [
   {
     title: "Backend Developer",
     icon: backend,
-    description: "Developing robust server-side applications with Node.js, Express, and MongoDB."
+    description: "Developing robust server-side applications with PHP and MySQL, creating efficient and scalable web solutions."
   },
 ];
 
@@ -72,8 +71,8 @@ export const technologies = [
     icon: reactjs,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "PHP",
+    icon: php,
   },
   {
     name: "Tailwind CSS",
@@ -91,13 +90,19 @@ export const technologies = [
     name: "Git",
     icon: git,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
 ];
 
 export const experiences = [
+  {
+    title: "Frontend & Backend Developer Intern",
+    company_name: "Jammu Health",
+    date: "2024 - Present",
+    points: [
+      "Developing and maintaining web applications using HTML, CSS, and PHP",
+      "Building responsive user interfaces and implementing interactive features",
+      "Creating and managing backend systems using PHP and MySQL",
+      ],
+},
   {
     title: "IRCTC Clone App Developer",
     company_name: "Major Academic Project",

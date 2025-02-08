@@ -10,8 +10,8 @@ import css from "./tech/css.svg";
 import git from "./tech/git.svg";
 import html from "./tech/html.svg";
 import javascript from "./tech/javascript.svg";
-import mongodb from "./tech/mongodb.svg";
-import nodejs from "./tech/nodejs.svg";
+import php from "./tech/php.svg";
+import mysql from "./tech/mysql.svg";
 import reactjs from "./tech/reactjs.svg";
 import tailwind from "./tech/tailwind.svg";
 import threejs from "./tech/threejs.svg";
@@ -31,8 +31,8 @@ export {
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
+  php,
+  mysql,
   reactjs,
   tailwind,
   threejs,
